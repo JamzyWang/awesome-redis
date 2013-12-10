@@ -1,0 +1,27 @@
+一致性哈希的实验
+
+设定5个服务器,IP地址分别为192.168.1.[221-225]
+并且假设IP的hashcode为12,24,36,48,60
+
+hash code: 1---12---24---36---48---60
+server ip:     221  222  223  224  225 
+该数据模型使用跳跃表存储
+
+然后,随机生成客户端key的hash值(1---60),然后从跳跃表中取出应该分配的服务器IP
+
+CTLR + C 终止程序
+example:
+No: 1     HashCode: 12        IP: 192.168.1.221
+No: 2     HashCode: 24        IP: 192.168.1.222
+No: 3     HashCode: 36        IP: 192.168.1.223
+No: 4     HashCode: 48        IP: 192.168.1.224
+No: 5     HashCode: 60        IP: 192.168.1.225
+key hash code: 56   dispatch to IP: 192.168.1.225
+key hash code: 26   dispatch to IP: 192.168.1.223
+key hash code: 19   dispatch to IP: 192.168.1.222
+key hash code: 60   dispatch to IP: 192.168.1.225
+key hash code: 25   dispatch to IP: 192.168.1.223
+key hash code: 26   dispatch to IP: 192.168.1.223
+key hash code: 15   dispatch to IP: 192.168.1.222
+key hash code: 33   dispatch to IP: 192.168.1.223
+key hash code: 25   dispatch to IP: 192.168.1.223

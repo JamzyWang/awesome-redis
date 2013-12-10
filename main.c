@@ -44,7 +44,9 @@ int main(int argc, char *argv[])
 
 	while (!b_break) {
 		int key_hash_code = rand() % 60 + 1;
-		printf("key hash code: %-3d  dispatch to IP: %s\n", key_hash_code, get_ip_from_skip_list(sl, key_hash_code));
+		printf("key hash code: %-3d  dispatch to IP: %s\n", 
+				key_hash_code, 
+				get_ip_from_skip_list(sl, key_hash_code));
 
 		sleep(1);
 	}
