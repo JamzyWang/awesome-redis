@@ -1,289 +1,138 @@
-# Awesome Hadoop
+# Awesome Redis
 
-A curated list of amazingly awesome Hadoop and Hadoop ecosystem resources. Inspired by [Awesome PHP](https://github.com/ziadoz/awesome-php), [Awesome Python](https://github.com/vinta/awesome-python) and [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
+A curated list of amazingly awesome redis and redis ecosystem resources. Inspired by [Awesome PHP](https://github.com/ziadoz/awesome-php), [Awesome Python](https://github.com/vinta/awesome-python) and [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
 
-- [Awesome Hadoop](#awesome-hadoop)
-	- [Hadoop](#hadoop)
-	- [YARN](#yarn)
-	- [NoSQL](#nosql)
-	- [SQL on Hadoop](#sql-on-hadoop)
-	- [Data Management](#data_management)
-	- [Workflow, Lifecycle and Governance](#workflow_lifecycle_and_Governance)
-	- [Data Ingestion and Integration](#data-ingestion-and-integration)
-	- [DSL](#dsl)
-	- [Libraries and Tools](#libraries-and-tools)
-	- [Realtime Data Processing](#realtime-data-processing)
-	- [Distributed Computing and Programming](#distributed_computing_and_programming)
-	- [Packaging, Provisioning and Monitoring](#packaging-provisioning-and-monitoring)
-	- [Monitoring](#monitoring)
-	- [Search](#search)
-	- [Security](#security)
-	- [Benchmark](#benchmark)
-	- [Machine learning and Big Data analytics](#machine_learning_and_big_data_analytics)
-	- [Misc.](#misc)
+- [Awesome Redis](#awesome-redis)
+	- [Redis](#redis)
+	- [Use Cases](#use-cases)
+	- [Redis Client](#redis-client)
+
 - [Resources](#resources)
 	- [Websites](#websites)
 	- [Presentations](#presentations)
 	- [Books](#books)
 - [Other Awesome Lists](#other-awesome-lists)
 
-## Hadoop
+---
 
-* [Apache Hadoop](http://hadoop.apache.org/) - Apache Hadoop
-* [Apache Tez](http://tez.incubator.apache.org/)
-* [SpatialHadoop](http://spatialhadoop.cs.umn.edu/) - SpatialHadoop is a MapReduce extension to Apache Hadoop designed specially to work with spatial data. 
-* [GIS Tools for Hadoop](http://esri.github.io/gis-tools-for-hadoop/) - Big Data Spatial Analytics for the Hadoop Framework
-* [Elasticsearch Hadoop](https://github.com/elasticsearch/elasticsearch-hadoop) - Elasticsearch real-time search and analytics natively integrated with Hadoop. Supports Map/Reduce, Cascading, Apache Hive and Apache Pig.
-* [dumbo](https://github.com/klbostee/dumbo) - Python module that allows you to easily write and run Hadoop programs.
-* [hadoopy](https://github.com/bwhite/hadoopy) - Python MapReduce library written in Cython. 
-* [mrjob](https://github.com/Yelp/mrjob/) - mrjob is a Python 2.5+ package that helps you write and run Hadoop Streaming jobs.
-* [pydoop](http://pydoop.sourceforge.net/) - Pydoop is a package that provides a Python API for Hadoop.
-* [hdfs-du](https://github.com/twitter/hdfs-du) - HDFS-DU is an interactive visualization of the Hadoop distributed file system. 
-* [White Elephant](https://github.com/linkedin/white-elephant) - Hadoop log aggregator and dashboard
-* [Kiji Project](http://www.kiji.org/)
-* [Genie](https://github.com/Netflix/genie) - Genie provides REST-ful APIs to run Hadoop, Hive and Pig jobs, and to manage multiple Hadoop resources and perform job submissions across them.
-* [Kylin](http://www.kylin.io/) - Kylin is an open source Distributed Analytics Engine from eBay Inc. that provides SQL interface and multi-dimensional analysis (OLAP) on Hadoop supporting extremely large datasets.
-* [Crunch](https://github.com/jondot/crunch) - Go-based toolkit for ETL and feature extraction on Hadoop
-* [Apache Ignite](http://ignite.incubator.apache.org/) - Distributed in-memory platform
+## Redis
 
-## YARN
+* [Redis](http://redis.io/) - redis official website
+* [Antirez](http://antirez.com/latest/0) - blog of the redis author 
+* [Redis News Feed](https://twitter.com/redisfeed) - Redis News Feed
 
-* [Apache Slider](http://slider.incubator.apache.org/) - Apache Slider is a project in incubation at the Apache Software Foundation with the goal of making it possible and easy to deploy existing applications onto a YARN cluster.
-* [Apache Twill](http://twill.incubator.apache.org/) - Apache Twill is an abstraction over Apache Hadoop® YARN that reduces the complexity of developing distributed applications, allowing developers to focus more on their application logic.
-* [mpich2-yarn](https://github.com/clarkyzl/mpich2-yarn) - Running MPICH2 on Yarn
+---
 
-## NoSQL
-*Next Generation Databases mostly addressing some of the points: being non-relational, distributed, open-source and horizontally scalable.*
+## Use Cases
 
-* [Apache HBase](http://hbase.apache.org) - Apache HBase
-* [Apache Phoenix](http://phoenix.apache.org/) - A SQL skin over HBase
-* [happybase](https://github.com/wbolster/happybase) - A developer-friendly Python library to interact with Apache HBase.
-* [Hannibal](https://github.com/sentric/hannibal) - Hannibal is tool to help monitor and maintain HBase-Clusters that are configured for manual splitting.
-* [Haeinsa](https://github.com/VCNC/haeinsa) - Haeinsa is linearly scalable multi-row, multi-table transaction library for HBase
-* [hindex](https://github.com/Huawei-Hadoop/hindex) - Secondary Index for HBase
-* [Apache Accumulo](https://accumulo.apache.org/) - The Apache Accumulo™ sorted, distributed key/value store is a robust, scalable, high performance data storage and retrieval system.
-* [OpenTSDB](http://opentsdb.net/) - The Scalable Time Series Database
-* [Apache Cassandra](http://cassandra.apache.org/)
+* [Twitter](http://www.infoq.com/presentations/Real-Time-Delivery-Twitter) 
+* [Weibo](http://www.infoq.com/cn/presentations/tfl-sina-weibo-platform-redis-practice) 
+* [Tumblr](http://highscalability.com/blog/2013/5/20/the-tumblr-architecture-yahoo-bought-for-a-cool-billion-doll.html) 
+* [Flickr](http://www.infoq.com/news/2014/08/flickr-sentinel-redis) 
+* [Instagram](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html) 
+* [Pinterest](http://nosql.mypopescu.com/post/17658415847/polyglot-persistence-at-pinterest-redis-membase) 
+* [Youporn.com](http://highscalability.com/blog/2012/4/2/youporn-targeting-200-million-views-a-day-and-beyond.html) 
+* [Line](http://developers.linecorp.com/blog/?p=1420) 
+* [stackoverflow](http://highscalability.com/blog/2011/3/3/stack-overflow-architecture-update-now-at-95-million-page-vi.html) 
+* [Github](https://github.com/blog/530-how-we-made-github-fast)
+* [Discourge](https://github.com/discourse/discourse)
+* [Digg](http://www.fastcolabs.com/3014663/open-company/inside-the-tech-stack-digg-used-to-replace-google-reader)
 
-## SQL on Hadoop
-*SQL on Hadoop*
+---
 
-* [Apache Hive](http://hive.apache.org)
-* Hive Plugins
- * UDF
-     * http://nexr.github.io/hive-udf/
-     * https://github.com/edwardcapriolo/hive_cassandra_udfs
-     * https://github.com/livingsocial/HiveSwarm
-     * https://github.com/ThinkBigAnalytics/Hive-Extensions-from-Think-Big-Analytics
-     * https://github.com/karthkk/udfs
-     * https://github.com/kevinweil/elephant-bird - Twitter
-     * https://github.com/lovelysystems/ls-hive
-     * https://github.com/stewi2/hive-udfs
-     * https://github.com/klout/brickhouse
-     * https://github.com/markgrover/hive-translate (PostgreSQL translate())
-     * https://github.com/deanwampler/HiveUDFs
-     * https://github.com/myui/hivemall (Machine Learning UDF/UDAF/UDTF)
-     * https://github.com/edwardcapriolo/hive-geoip (GeoIP UDF)
-     * https://github.com/Netflix/Surus
- * Storage Handler
-     * https://github.com/dvasilen/Hive-Cassandra
-     * https://github.com/yc-huang/Hive-mongo
-     * https://github.com/balshor/gdata-storagehandler
-     * https://github.com/karthkk/hive-hbase-json
-     * https://github.com/sunsuk7tp/hive-hbase-integration
-     * https://bitbucket.org/rodrigopr/redisstoragehandler
-     * https://github.com/zhuguangbin/HiveJDBCStorageHanlder
-     * https://github.com/chimpler/hive-solr
-     * https://github.com/bfemiano/accumulo-hive-storage-manager
- * SerDe
-     * https://github.com/rcongiu/Hive-JSON-Serde
-     * https://github.com/mochi/hive-json-serde
-     * https://github.com/ogrodnek/csv-serde
-     * https://github.com/parag/HiveJsonSerde
-     * https://github.com/johanoskarsson/hive-json-serde
-     * https://github.com/electrum/hive-serde - JSON
-     * https://github.com/karthkk/hive-hbase-json
- * Libraries and tools
-     * https://github.com/forward/rbhive
-     * https://github.com/synctree/activerecord-hive-adapter
-     * https://github.com/hrp/sequel-hive-adapter
-     * https://github.com/forward/node-hive
-     * https://github.com/recruitcojp/WebHive
-     * [shib](https://github.com/tagomoris/shib) - WebUI for query engines: Hive and Presto
-     * [clive](https://github.com/bmuller/clive) - Clojure library for interacting with Hive via Thrift
-     * http://www.phphiveadmin.net/
-     * https://github.com/anjuke/hwi
-     * https://code.google.com/a/apache-extras.org/p/hipy/
-     * https://github.com/dmorel/Thrift-API-HiveClient2 (Perl - HiveServer2)
-     * [PyHive](https://github.com/dropbox/PyHive) - Python interface to Hive and Presto
-     * https://github.com/recruitcojp/OdbcHive
-     * [Hive-Sharp](https://bitbucket.org/vadim/hive-sharp)
-     * [HiveRunner](https://github.com/klarna/HiveRunner) - An Open Source unit test framework for hadoop hive queries based on JUnit4
-     * [Beetest](https://github.com/kawaa/Beetest) - A super simple utility for testing Apache Hive scripts locally for non-Java developers.
-     * [Hive_test](https://github.com/edwardcapriolo/hive_test)- Unit test framework for hive and hive-service
-* [Cloudera Impala](http://impala.io/)
-* [Presto](http://prestodb.io/)
-* [Apache Tajo](http://tajo.apache.org/) - Data warehouse system for Apache Hadoop
-* [Apache Drill](http://incubator.apache.org/)
+## Redis-based Queues
+* [rq](https://github.com/nvie/rq) - Simple job queues for Python
+* [rq-scheduler](https://github.com/zhemingwang/rq-scheduler) - A light library that adds job scheduling capabilities to [rq](https://github.com/nvie/rq)
+* [Ost](https://github.com/soveran/ost) - Redis based queues and workers,written in Ruby
+* [HotQueue](https://github.com/richardhenry/hotqueue) - a Python library that allows you to use Redis as a message queue within your Python programs.
+* [resque](https://github.com/resque/resque) - Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later
 
-## Data Management
+* [kue](https://github.com/Automattic/kue) - Kue is a priority job queue backed by redis, built for node.js
+* [django-rq](https://github.com/ui/django-rq) - A simple app that provides django integration for [rq](https://github.com/nvie/rq)
+* [bull](https://github.com/OptimalBits/bull) - A NodeJS persistent job and message queue based on Redis
+* [flask-rq](https://github.com/mattupstate/flask-rq) - [rq](https://github.com/nvie/rq) integration for Flask applications
 
-* [Apache Calcite](http://calcite.incubator.apache.org/) - A Dynamic Data Management Framework
- 
-## Workflow, Lifecycle and Governance
+---
 
-* [Apache Oozie](http://oozie.apche.org) - Apache Oozie
-* [Azkaban](http://azkaban.github.io/)
-* [Apache Falcon](http://falcon.incubator.apache.org/) - Data management and processing platform
-* [Apache NiFi](https://nifi.incubator.apache.org/) - A dataflow system
-* [Airflow](http://pythonhosted.org/airflow/index.html) - Airflow is a platform to programmaticaly author, schedule and monitor data pipelines
+## Redis Client
+### C
+* [hiredis](https://github.com/redis/hiredis) - This is the official C client. Support for the whole command set, pipelining, event driven programming.
 
-## Data Ingestion and Integration
+### C#
+* [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis) - This is a fork and improvement of the original C# client written by Miguel De Icaza.
+* [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) - This .NET client was developed by Stack Exchange for very high performance needs (replacement to the earlier BookSleeve).
 
-* [Apache Flume](http://flume.apache.org) - Apache Flume
-* Flume Plugins
- * [Flume MongoDB Sink](https://github.com/leonlee/flume-ng-mongodb-sink)
- * [Flume HornetQ Channel](https://github.com/btoddb/flume-ng-hornetq-channel)
- * [Flume MessagePack Source](https://github.com/leonlee/flume-ng-msgpack-source)
- * [Flume RabbitMQ source and sink](https://github.com/jcustenborder/flume-ng-rabbitmq)
- * [Flume UDP Source](https://github.com/whitepages/flume-udp-source)
- * [Stratio Ingestion](https://github.com/Stratio/stratio-ingestion) - Custom sinks: Cassandra, MongoDB, Stratio Streaming and JDBC
- * [Flume Custom Serializers](https://github.com/relistan/flume-serializers)
- * [Real-time analytics in Apache Flume](https://github.com/jrkinley/flume-interceptor-analytics)
- * [.Net FlumeNG Clients](https://github.com/marksl/DotNetFlumeNG.Clients)
-* [Suro](https://github.com/Netflix/suro) - Netflix's distributed Data Pipeline
-* [Apache Sqoop](http://sqoop.apache.org) - Apache Sqoop
-* [Apache Kafka](http://kafka.apache.org/) - Apache Kafka
 
-## DSL
+### C++
+* [redis-client for C++](https://github.com/zhengshuxin/acl/tree/master/lib_acl_cpp/include/acl_cpp/redis) - full redis client commands, one redis command one redis function, including STRING, HASH, LIST, SET, ZSET, HLL, PUBSUB, TRANSACTION, SCRIPT, CONNECTION, SERVER, CLUSTER
+* [redis3m](https://github.com/luca3m/redis3m) - A C++ wrapper of hiredis, with also connection pooling, high availability and ready-to-use patterns
+* [redisclient](https://github.com/nekipelov/redisclient) - A C++ asynchronous client based on boost::asio
+* [redox](https://github.com/hmartiro/redox) - Modern, asynchronous, and fast C++11 client for Redis
+* [SimpleRedisClient](https://github.com/Levhav/SimpleRedisClient) - Simple Redis client for C++
 
-* [Apache Pig](http://pig.apache.org) - Apache Pig
-* [Apache DataFu](http://datafu.incubator.apache.org/) - A collection of libraries for working with large-scale data in Hadoop
-* [vahara](https://github.com/Ganglion/varaha) - Machine learning and natural language processing with Apache Pig
-* [packetpig](https://github.com/packetloop/packetpig) - Open Source Big Data Security Analytics
-* [akela](https://github.com/mozilla-metrics/akela) - Mozilla's utility library for Hadoop, HBase, Pig, etc.
-* [seqpig](http://seqpig.sourceforge.net/) - Simple and scalable scripting for large sequencing data set(ex: bioinfomation) in Hadoop 
-* [Lipstick](https://github.com/Netflix/Lipstick) - Pig workflow visualization tool. [Introducing Lipstick on A(pache) Pig](http://techblog.netflix.com/2013/06/introducing-lipstick-on-apache-pig.html)
-* [PigPen](https://github.com/Netflix/PigPen) - PigPen is map-reduce for Clojure, or distributed Clojure. It compiles to Apache Pig, but you don't need to know much about Pig to use it.
+## Erlang
+* [Eredis](https://github.com/wooga/eredis) - Redis client with a focus on performance
+* [sharded_eredis](https://github.com/jeremyong/sharded_eredis) - Wrapper around eredis providing process pools and consistent hashing
+* [Tideland Erlang/OTP Redis Client](git://git.tideland.biz/errc) - A comfortable Redis client for Erlang/OTP support pooling, pub/sub and transactions.
 
-## Libraries and Tools
+## Go
+* [Radix](https://github.com/fzzy/radix) - MIT licensed Redis client
+* [Redigo](https://github.com/jeremyong/sharded_eredis) - Redigo is a Go client for the Redis database with support for Print-alike API, Pipelining (including transactions), Pub/Sub, Connection pooling, scripting
 
-* [Kite Software Development Kit](http://kitesdk.org/) - A set of libraries, tools, examples, and documentation
-* [gohadoop](https://github.com/hortonworks/gohadoop) - Native go clients for Apache Hadoop YARN.
-* [Hue](http://gethue.com/) - A Web interface for analyzing data with Apache Hadoop.
-* [Apache Zeppelin](https://zeppelin.incubator.apache.org/) - A web-based notebook that enables interactive data analytics
-* [Jumbune](https://github.com/impetus-opensource/jumbune) - Jumbune is an open-source product built for analyzing Hadoop cluster and MapReduce jobs.
-* [Apache Thrift](http://thrift.apache.org/)
-* [Apache Avro](http://avro.apache.org/) - Apache Avro is a data serialization system.
-* [Elephant Bird](https://github.com/kevinweil/elephant-bird) - Twitter's collection of LZO and Protocol Buffer-related Hadoop, Pig, Hive, and HBase code.
-* [Spring for Apache Hadoop](http://projects.spring.io/spring-hadoop/)
-* [hdfs - A native go client for HDFS](https://github.com/colinmarc/hdfs)
+## Haskell
+* [hedis](https://github.com/informatikr/hedis) - Supports the complete command set. Commands are automatically pipelined for high performance
 
-## Realtime Data Processing
 
-* [Apache Storm](https://storm.incubator.apache.org/)
-* [Apache Samza](http://samza.incubator.apache.org/)
 
-## Distributed Computing and Programming
+### Java
+* [Jedis](https://github.com/xetorthio/jedis)
+* [Redisson](https://github.com/mrniko/redisson)
+* [aredis](http://aredis.sourceforge.net/)
+* [JDBC-Redis](http://code.google.com/p/jdbc-redis/source/browse)
+* [JRedis](https://github.com/alphazero/jredis)
+* [redis-py](https://github.com/andymccurdy/redis-py) 
 
-* [Apache Spark](http://spark.apache.org/)
-* [Apache Crunch](http://crunch.apache.org)
-* [Cascading](http://www.cascading.org/) - Cascading is the proven application development platform for building data applications on Hadoop.
-* [Apache Flink](http://flink.incubator.apache.org/) - Apache Flink is a platform for efficient, distributed, general-purpose data processing.
 
-## Packaging, Provisioning and Monitoring
+### Python
+* [redis-py](https://github.com/andymccurdy/redis-py) - Redis Python Client
 
-* [Apache Bigtop](http://bigtop.apache.org/) - Apache Bigtop: Packaging and tests of the Apache Hadoop ecosystem 
-* [Apache Ambari](http://ambari.apache.org/) - Apache Ambari
-* [Ganglia Monitoring System](http://ganglia.sourceforge.net/)
-* [ankush](https://github.com/impetus-opensource/ankush) - A big data cluster management tool that creates and manages clusters of different technologies.
-* [Apache Zookeeper](http://zookeeper.apache.org/) - Apache Zookeeper
-* [Apache Curator](http://curator.apache.org/) - ZooKeeper client wrapper and rich ZooKeeper framework
-* [Buildoop](https://github.com/buildoop/buildoop) - Hadoop Ecosystem Builder
-* [Deploop](http://deploop.github.io/) - The Hadoop Deploy System
-* [Jumbune](http://www.jumbune.org/) - An open source MapReduce profiling, MapReduce flow debugging, HDFS data quality validation and Hadoop cluster monitoring tool.
-* [inviso](https://github.com/Netflix/inviso) - Inviso is a lightweight tool that provides the ability to search for Hadoop jobs, visualize the performance, and view cluster utilization.
 
-## Search
 
-* [ElasticSearch](http://www.elasticsearch.org/)
-* [Apache Solr](http://lucene.apache.org/solr/)
-* [SenseiDB](http://www.senseidb.com/) - Open-source, distributed, realtime, semi-structured database
-* [Banana](https://github.com/LucidWorks/banana) - Kibana port for Apache Solr
 
-## Security
+## Top Questions on Stackoverflow
+* [Memcached vs. Redis?](http://stackoverflow.com/questions/10558465/memcached-vs-redis)
+* [What is Redis and what do I use it for?](http://stackoverflow.com/questions/7888880/what-is-redis-and-what-do-i-use-it-for)
+* [How do I delete everything in redis?](http://stackoverflow.com/questions/6851909/how-do-i-delete-everything-in-redis)
+* [What are the underlying data structures used for Redis?](http://stackoverflow.com/questions/9625246/what-are-the-underlying-data-structures-used-for-redis) 
+* [When to Redis? When to MongoDB?](http://stackoverflow.com/questions/5400163/when-to-redis-when-to-mongodb)
+* [How to atomically delete keys matching a pattern using Redis](http://stackoverflow.com/questions/4006324/how-to-atomically-delete-keys-matching-a-pattern-using-redis)
+* [Redis command to get all available keys?](http://stackoverflow.com/questions/5252099/redis-command-to-get-all-available-keys)
+* [How much faster is Redis than mongoDB?](http://stackoverflow.com/questions/5252577/how-much-faster-is-redis-than-mongodb) 
+* [Is memcached a dinosaur in comparison to Redis?](http://stackoverflow.com/questions/2873249/is-memcached-a-dinosaur-in-comparison-to-redis)
 
-* [Apache Ranger](http://ranger.incubator.apache.org/) - Ranger is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform.
-* [Apache Sentry](https://sentry.incubator.apache.org/) - An authorization module for Hadoop
-* [Apache Knox Gateway](https://knox.apache.org/) - A REST API Gateway for interacting with Hadoop clusters.
 
-## Benchmark
+# Resources 
 
-* [Big Data Benchmark](https://amplab.cs.berkeley.edu/benchmark/)
-* [HiBench](https://github.com/intel-hadoop/HiBench)
-* [Big-Bench](https://github.com/intel-hadoop/Big-Bench)
-* [hive-benchmarks](https://github.com/yhuai/hive-benchmarks)
-* [hive-testbench](https://github.com/cartershanklin/hive-testbench) - Testbench for experimenting with Apache Hive at any data scale.
 
-## Machine learning and Big Data analytics
 
-* [Apache Mahout](http://mahout.apache.org)
-* [Cloudera Oryx](https://github.com/cloudera/oryx) - The Oryx open source project provides simple, real-time large-scale machine learning / predictive analytics infrastructure.
-* [MLlib](https://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
-* [R](http://www.r-project.org/) - R is a free software environment for statistical computing and graphics.
-* [RHive](http://nexr.github.io/RHive/) - RHive is an R extension facilitating distributed computing via Apache Hive.
-* [RHadoop](https://github.com/RevolutionAnalytics/RHadoop/wiki)
-* [Apache Lens](http://lens.incubator.apache.org/)
-
-## Misc.
-
-# Resources
-Various resources, such as books, websites and articles.
 
 ## Websites
 *Useful websites and articles*
 
-* [Hadoop Weekly](http://www.hadoopweekly.com/)
-* [The Hadoop Ecosystem Table](http://hadoopecosystemtable.github.io/)
-* [Hadoop 1.x vs 2](http://www.slideshare.net/RommelGarcia2/hadoop-1x-vs-2)
-* [Apache Hadoop YARN: Yet Another Resource Negotiator](http://www.socc2013.org/home/program/a5-vavilapalli.pdf)
-* [Introducing Apache Hadoop YARN](http://hortonworks.com/blog/introducing-apache-hadoop-yarn/)
-* [Apache Hadoop YARN - Background and an Overview](http://hortonworks.com/blog/apache-hadoop-yarn-background-and-an-overview/)
-* [Apache Hadoop YARN - Concepts and Applications](http://hortonworks.com/blog/apache-hadoop-yarn-concepts-and-applications/)
-* [Apache Hadoop YARN - ResourceManager](http://hortonworks.com/blog/apache-hadoop-yarn-resourcemanager/)
-* [Apache Hadoop YARN - NodeManager](http://hortonworks.com/blog/apache-hadoop-yarn-nodemanager/)
-* [Migrating to MapReduce 2 on YARN (For Users)](http://blog.cloudera.com/blog/2013/11/migrating-to-mapreduce-2-on-yarn-for-users/)
-* [Migrating to MapReduce 2 on YARN (For Operators)](http://blog.cloudera.com/blog/2013/11/migrating-to-mapreduce-2-on-yarn-for-operators/)
-* [Hadoop and Big Data: Use Cases at Salesforce.com](http://blogs.developerforce.com/engineering/2013/03/hadoop-use-cases-at-salesforce-com.html)
-* [All you wanted to know about Hadoop, but were too afraid to ask: genealogy of elephants.](https://blogs.apache.org/bigtop/entry/all_you_wanted_to_know)
-* [What is Bigtop, and Why Should You Care?](https://blogs.apache.org/bigtop/entry/bigtop_and_why_should_you)
-* [Hadoop - Distributions and Commercial Support](http://wiki.apache.org/hadoop/Distributions%20and%20Commercial%20Support)
-* [Ganglia configuration for a small Hadoop cluster and some troubleshooting](http://hakunamapdata.com/ganglia-configuration-for-a-small-hadoop-cluster-and-some-troubleshooting/)
-* [Hadoop illuminated](http://hadoopilluminated.com/) - Open Source Hadoop Book
-* [NoSQL Database](http://nosql-database.org/)
-* [10 Best Practices for Apache Hive](http://www.qubole.com/hive-best-practices/)
-* [Hadoop Operations at Scale](http://hortonworks.com/blog/apache-hadoop-operations-scale/)
-* [AWS BigData Blog](http://blogs.aws.amazon.com/bigdata/)
+* [Redis weekly](http://redisweekly.com/)
+
+
 
 ## Presentations
 
-* [Hadoop 24/7](http://www.slideshare.net/allenwittenauer/aw-apachecon2009-15342917)
-* [An example Apache Hadoop Yarn upgrade](http://www.slideshare.net/mikejf12/an-example-apache-hadoop-yarn-upgrade)
-* [Apache Hadoop In Theory And Practice](http://www.slideshare.net/AdamKawa/hadoop-intheoryandpractice)
-* [Hadoop Operations at LinkedIn](http://www.slideshare.net/allenwittenauer/2013-hadoopsummitemea)
-* [Hadoop Performance at LinkedIn](http://www.slideshare.net/allenwittenauer/2012-lihadoopperf)
-* [Docker based Hadoop provisioning](http://www.slideshare.net/JanosMatyas/docker-based-hadoop-provisioning)
+* [Real World Redis](http://www.infoq.com/presentations/Redis-Data-Structure-Library)
+
 
 ## Books
 
-* [Hadoop: The Definitive Guide](http://www.amazon.com/gp/product/1449311520/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449311520&linkCode=as2&tag=matratsblo-20)
-* [Hadoop Operations](http://www.amazon.com/gp/product/1449327052/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449327052&linkCode=as2&tag=matratsblo-20)
-* [Apache Hadoop Yarn](http://www.amazon.com/dp/0321934504?tag=matratsblo-20)
-* [HBase: The Definitive Guide](http://shop.oreilly.com/product/0636920014348.do)
-* [Programming Pig](http://shop.oreilly.com/product/0636920018087.do)
-* [Programming Hive](http://shop.oreilly.com/product/0636920023555.do)
-* [Hadoop in Practice, Second Edition](http://www.manning.com/holmes2/)
-* [Hadoop in Action, Second Edition](http://www.manning.com/lam2/)
+* [Redis in Action](http://www.manning.com/carlson/)
+* [The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/)
+
 
 # Other Awesome Lists
 Other amazingly awesome lists can be found in the [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.
