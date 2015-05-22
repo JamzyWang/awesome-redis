@@ -4,24 +4,23 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 - [Awesome Redis](#awesome-redis)
 	- [Redis](#redis)
+	- [Community](#community)
+	- [Tutorial](#tutorial)
+	- [Peroformance Monitoring](#peroformance-monitoring)
 	- [Use Cases](#use-cases)
+	- [Top Questions on Stackoverflow](#top-questions-on-stackoverflow)
+	- [Most Stars Project on Github](#most-stars-project-on-github)
+	- [Redis-based Queues](#redis-based-job-queues)
+	- [Higher level libraries and tools](#higher-level-libraries-and-tools)
 	- [Redis Client](#redis-client)
-	- [Higher level libraries and tools](#Higher-level-libraries-and-tools)
-	- [Community](#Community)
-	- [Most Stars Project on Github](#Most-Stars-Project-on-Github)
-	- [Top Questions on Stackoverflow](#Top-Questions-on-Stackoverflow)
-	- [Tutorial](#Tutorial)
-
 - [Resources](#resources)
-	- [Websites](#websites)
+	- [Useful websites and articles](#useful-websites-and-articles)
 	- [Presentations](#presentations)
 	- [Books](#books)
 - [Other Awesome Lists](#other-awesome-lists)
 
 ---
-
 ## Redis
-
 * [Redis](http://redis.io/) - redis official website
 * [Antirez](http://antirez.com/latest/0) - blog of the redis author 
 * [Documentation](http://redis.io/documentation) 
@@ -36,12 +35,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [San Francisco Meetup Group](http://sfmeetup.redis.io/)
 
 
-
-
 ---
-
 ## Tutorial
-
 * [Redis: Zero to Master in 30 minutes](http://openmymind.net/2011/11/8/Redis-Zero-To-Master-In-30-Minutes-Part-1/)
 * [Lua: A Guide for Redis Users](https://www.redisgreen.net/blog/intro-to-lua-for-redis-programmers/)
 * [Redis - Quick Guide](http://www.tutorialspoint.com/redis/redis_quick_guide.htm)
@@ -50,8 +45,37 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Auto complete with Redis](http://autocomplete.redis.io/) - The full list of commands implemented by Redis, along with thorough documentation for each of them
 * [Using Redis as an LRU cache](http://redis.io/topics/lru-cache) - How to configure and use Redis as a cache with a fixed amount of memory and auto eviction of keys.
 * [Redis Cluster](http://redis.io/topics/lru-cache) - a gentle introduction and setup guide to Redis Cluster
+* [How to Use Azure Redis Cache](http://azure.microsoft.com/en-in/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/?rnd=1) 
+* [Redis, from the Ground Up](http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html) 
+
+---
+## Peroformance Monitoring
+* [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes.
+* [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring
+* [redis-stat](https://github.com/junegunn/redis-stat) -  A real-time Redis monitoring tool
+* [redispapa](https://github.com/no13bus/redispapa) - another redis monitor by using flask, angular, socket.io
+* [django-redisboard](https://github.com/ionelmc/django-redisboard) - Redis monitoring and inspection tool in django admin
+* [redis-faina](https://github.com/facebookarchive/redis-faina) - A query analyzer that parses Redis' MONITOR command for counter/timing stats about query patterns
 
 
+
+---
+## Use Cases
+
+* [Twitter](http://www.infoq.com/presentations/Real-Time-Delivery-Twitter) - Real-Time Delivery Architecture at Twitter
+* [Twitter](http://highscalability.com/blog/2014/9/8/how-twitter-uses-redis-to-scale-105tb-ram-39mm-qps-10000-ins.html) - How Twitter Uses Redis To Scale
+* [Weibo](http://www.infoq.com/cn/presentations/tfl-sina-weibo-platform-redis-practice) 
+* [Tumblr](http://highscalability.com/blog/2013/5/20/the-tumblr-architecture-yahoo-bought-for-a-cool-billion-doll.html) 
+* [Flickr](http://www.infoq.com/news/2014/08/flickr-sentinel-redis) 
+* [Instagram](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html) 
+* [Pinterest](http://nosql.mypopescu.com/post/17658415847/polyglot-persistence-at-pinterest-redis-membase) 
+* [Youporn.com](http://highscalability.com/blog/2012/4/2/youporn-targeting-200-million-views-a-day-and-beyond.html) 
+* [Line](http://developers.linecorp.com/blog/?p=1420) 
+* [stackoverflow](http://highscalability.com/blog/2011/3/3/stack-overflow-architecture-update-now-at-95-million-page-vi.html) 
+* [Github](https://github.com/blog/530-how-we-made-github-fast)
+* [Discourge](https://github.com/discourse/discourse)
+* [Digg](http://www.fastcolabs.com/3014663/open-company/inside-the-tech-stack-digg-used-to-replace-google-reader)
+* [redis4you](http://redis4you.com/)
 
 
 
@@ -67,6 +91,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [How much faster is Redis than mongoDB?](http://stackoverflow.com/questions/5252577/how-much-faster-is-redis-than-mongodb) 
 * [Is memcached a dinosaur in comparison to Redis?](http://stackoverflow.com/questions/2873249/is-memcached-a-dinosaur-in-comparison-to-redis)
 
+
+---
 ## Most Stars Project on Github
 * [resque](https://github.com/resque/resque) - Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.
 * [node_redis](https://github.com/mranney/node_redis) - redis client for node
@@ -80,38 +106,10 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Balloons.IO](https://github.com/rickyrauch/Balloons.IO) - Balloons.IO is a web multi-room chat server and client ready to use. It’s built with the help of node.JS, Express, Socket.IO and Redis
 * [predis](https://github.com/nrk/predis) - Flexible and feature-complete PHP client library for Redis
 
----
-## Peroformance Monitoring
-* [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes.
-* [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring
-* [redis-stat](https://github.com/junegunn/redis-stat) -  A real-time Redis monitoring tool
-* [redispapa](https://github.com/no13bus/redispapa) - another redis monitor by using flask, angular, socket.io
-* [django-redisboard](https://github.com/ionelmc/django-redisboard) - Redis monitoring and inspection tool in django admin
-* [redis-faina](https://github.com/facebookarchive/redis-faina) - A query analyzer that parses Redis' MONITOR command for counter/timing stats about query patterns
-
-
 
 
 ---
-## Use Cases
-
-* [Twitter](http://www.infoq.com/presentations/Real-Time-Delivery-Twitter) 
-* [Weibo](http://www.infoq.com/cn/presentations/tfl-sina-weibo-platform-redis-practice) 
-* [Tumblr](http://highscalability.com/blog/2013/5/20/the-tumblr-architecture-yahoo-bought-for-a-cool-billion-doll.html) 
-* [Flickr](http://www.infoq.com/news/2014/08/flickr-sentinel-redis) 
-* [Instagram](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html) 
-* [Pinterest](http://nosql.mypopescu.com/post/17658415847/polyglot-persistence-at-pinterest-redis-membase) 
-* [Youporn.com](http://highscalability.com/blog/2012/4/2/youporn-targeting-200-million-views-a-day-and-beyond.html) 
-* [Line](http://developers.linecorp.com/blog/?p=1420) 
-* [stackoverflow](http://highscalability.com/blog/2011/3/3/stack-overflow-architecture-update-now-at-95-million-page-vi.html) 
-* [Github](https://github.com/blog/530-how-we-made-github-fast)
-* [Discourge](https://github.com/discourse/discourse)
-* [Digg](http://www.fastcolabs.com/3014663/open-company/inside-the-tech-stack-digg-used-to-replace-google-reader)
-* [redis4you](http://redis4you.com/) - "We offering Redis hosting. Your website will be hosted on your shared hosting, VPS or dedicated server, we will take care of your Redis databases"
-
-
----
-## Redis-based Queues
+## Redis based Job Queues
 * [rq](https://github.com/nvie/rq) - Minimalistic Python task queue. Supports only Redis. (Python)
 * [restmq](https://github.com/gleicon/restmq) - REST/JSON/HTTP based message queue
 * [resque](https://github.com/resque/resque) - Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later. (Ruby)
@@ -123,7 +121,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [bull](https://github.com/OptimalBits/bull) - A NodeJS persistent job and message queue based on Redis
 * [flask-rq](https://github.com/mattupstate/flask-rq) - [rq](https://github.com/nvie/rq) integration for Flask applications
 * [Celery](https://github.com/ask/celery) - Python task queue. Supports multiple backends. (Python)
-
 
 ---
 ## Higher level libraries and tools
@@ -234,34 +231,24 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [scala-redis](https://github.com/debasishg/scala-redis) - Apparently a fork of the original client from @alejandrocrosa
 
 
-
+---
 # Resources 
-
-
-
-
-## Websites
-*Useful websites and articles*
-
+---
+## Useful websites and articles
 * [Redis weekly](http://redisweekly.com/)
 * [Redis News Feed](https://twitter.com/redisfeed)
 * [Redis Cheat Sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
 
-
+---
 ## Presentations
-
 * [Real World Redis](http://www.infoq.com/presentations/Redis-Data-Structure-Library)
 * [wooga’s architecture: Facebook Games on MySQL and Redis](http://nosql.mypopescu.com/post/4788119911/woogas-architecture-facebook-games-on-mysql-and)
 * [Redis And python](http://www.slideshare.net/sunilar0ra/redis-and-python-at-pycon2011)
+* [Redis 101](https://zh.scribd.com/doc/33531219/Redis-Presentation)
 
 
-* [Real World Redis](http://www.infoq.com/presentations/Redis-Data-Structure-Library)
-* [Real World Redis](http://www.infoq.com/presentations/Redis-Data-Structure-Library)
-
-
-
+---
 ## Books
-
 * [Redis in Action](http://www.manning.com/carlson/)
 * [Redis: The Definitive Guide](http://shop.oreilly.com/product/0636920014294.do)
 * [The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/)
@@ -271,6 +258,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Seven Databases in Seven Weeks](https://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
 * [Mining the Social Web](http://shop.oreilly.com/product/0636920010203.do)
 
-
+---
 # Other Awesome Lists
 Other amazingly awesome lists can be found in the [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.
