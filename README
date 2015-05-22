@@ -1,8 +1,8 @@
-# Awesome Redis
+# Awesome Hadoop
 
-A curated list of amazingly awesome redis and redis ecosystem resources. Inspired by [Awesome PHP](https://github.com/ziadoz/awesome-php), [Awesome Python](https://github.com/vinta/awesome-python) and [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
+A curated list of amazingly awesome Hadoop and Hadoop ecosystem resources. Inspired by [Awesome PHP](https://github.com/ziadoz/awesome-php), [Awesome Python](https://github.com/vinta/awesome-python) and [Awesome Sysadmin](https://github.com/kahun/awesome-sysadmin)
 
-- [Awesome Redis](#awesome-redis)
+- [Awesome Hadoop](#awesome-hadoop)
 	- [Hadoop](#hadoop)
 	- [YARN](#yarn)
 	- [NoSQL](#nosql)
