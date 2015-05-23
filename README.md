@@ -13,6 +13,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Redis-based Queues](#redis-based-job-queues)
 	- [Higher level libraries and tools](#higher-level-libraries-and-tools)
 	- [Redis Cheat Sheet](#redis-cheat-sheet)
+	- [Redis Hosting](#redis-hosting)
 	- [Redis Client](#redis-client)
 - [Resources](#resources)
 	- [Useful websites and articles](#useful-websites-and-articles)
@@ -163,6 +164,19 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ## Redis Cheat Sheet 
 * [cheat sheet](https://masonoise.files.wordpress.com/2010/03/redis-cheatsheet-v1.pdf) -pdf reference with fine layout
 * [cheat sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
+
+
+---
+## Redis Hosting
+* [linode](https://www.linode.com/docs/databases/redis/) 
+* [redisgreen](http://www.redisgreen.net/) - With 24/7 Monitoring and Professional Support.
+* [redislabs](https://redislabs.com/) -Great apps. Big performance. Little effort
+* [openredis](https://openredis.com/) - offer dependable Redis™ hosting
+* [redis to go](http://redistogo.com/) - simple redis hosting
+* [redis4you](http://redis4you.com/) - offering Redis hosting
+* [openredis](https://addons.heroku.com/openredis) - Dependable Redis Hosting
+* [rackspace](http://www.rackspace.co.uk/objectrocket/redis) - safe, scalable and supported
+
 
 
 ---
