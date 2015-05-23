@@ -12,6 +12,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Most Stars Project on Github](#most-stars-project-on-github)
 	- [Redis-based Queues](#redis-based-job-queues)
 	- [Higher level libraries and tools](#higher-level-libraries-and-tools)
+	- [Redis Cheat Sheet](#redis-cheat-sheet)
 	- [Redis Client](#redis-client)
 - [Resources](#resources)
 	- [Useful websites and articles](#useful-websites-and-articles)
@@ -155,6 +156,13 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [HighcoTimelineBundle](https://github.com/stephpy/TimelineBundle) - TimelineBundle is a Bundle which works with Symfony 2.* which provides a timeline for a subject as Facebook can do. (PHP)
 * [Stdnet](https://github.com/lsbardel/python-stdnet) - Redis data manager with advanced query and search API. (Python)
 * [Retools](https://github.com/bbangert/retools) - Caching and locking helper library. (Python)
+
+
+
+---
+## Redis Cheat Sheet 
+* [cheat sheet](https://masonoise.files.wordpress.com/2010/03/redis-cheatsheet-v1.pdf) -pdf reference with fine layout
+* [cheat sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
 
 
 ---
