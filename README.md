@@ -77,7 +77,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Github](https://github.com/blog/530-how-we-made-github-fast)
 * [Discourge](https://github.com/discourse/discourse)
 * [Digg](http://www.fastcolabs.com/3014663/open-company/inside-the-tech-stack-digg-used-to-replace-google-reader)
-* [redis4you](http://redis4you.com/)
 
 
 
