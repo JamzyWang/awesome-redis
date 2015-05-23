@@ -8,6 +8,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Tutorial](#tutorial)
 	- [Peroformance Monitoring](#peroformance-monitoring)
 	- [Use Cases](#use-cases)
+	- [Debugging](#debugging)
 	- [Top Questions on Stackoverflow](#top-questions-on-stackoverflow)
 	- [Most Stars Project on Github](#most-stars-project-on-github)
 	- [Redis-based Queues](#redis-based-job-queues)
@@ -59,6 +60,9 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [django-redisboard](https://github.com/ionelmc/django-redisboard) - Redis monitoring and inspection tool in django admin
 * [redis-faina](https://github.com/facebookarchive/redis-faina) - A query analyzer that parses Redis' MONITOR command for counter/timing stats about query patterns
 
+---
+## Debugging
+* [redis-lua-debugger](https://github.com/RedisLabs/redis-lua-debugger) - A Redis Lua script for debugging Redis Lua scripts
 
 
 ---
