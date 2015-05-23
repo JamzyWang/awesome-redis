@@ -63,7 +63,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ---
 ## Debugging
 * [redis-lua-debugger](https://github.com/RedisLabs/redis-lua-debugger) - A Redis Lua script for debugging Redis Lua scripts
-
+* [Redis debugging guide](http://redis.io/topics/debugging) - official Redis debugging guide
 
 ---
 ## Use Cases
