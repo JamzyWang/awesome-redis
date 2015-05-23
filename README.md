@@ -44,12 +44,11 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Lua: A Guide for Redis Users](https://www.redisgreen.net/blog/intro-to-lua-for-redis-programmers/)
 * [Redis - Quick Guide](http://www.tutorialspoint.com/redis/redis_quick_guide.htm)
 * [Introduction to Redis data types](http://redis.io/topics/data-types-intro) - This is a good starting point to learn the Redis API and data model.
-* [Writing a simple Twitter clone with PHP and Redis](http://redis.io/topics/twitter-clone) - Design and implementation of a simple Twitter clone using PHP and the Redis key-value store
-* [Auto complete with Redis](http://autocomplete.redis.io/) - The full list of commands implemented by Redis, along with thorough documentation for each of them
-* [Using Redis as an LRU cache](http://redis.io/topics/lru-cache) - How to configure and use Redis as a cache with a fixed amount of memory and auto eviction of keys.
 * [Redis Cluster](http://redis.io/topics/lru-cache) - a gentle introduction and setup guide to Redis Cluster
 * [How to Use Azure Redis Cache](http://azure.microsoft.com/en-in/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/?rnd=1) 
 * [Redis, from the Ground Up](http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html) 
+* [Redis: under the hood](https://pauladamsmith.com/articles/redis-under-the-hood.html) -  How does the Redis server work?
+
 
 ---
 ## Peroformance Monitoring
@@ -81,6 +80,13 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Github](https://github.com/blog/530-how-we-made-github-fast)
 * [Discourge](https://github.com/discourse/discourse)
 * [Digg](http://www.fastcolabs.com/3014663/open-company/inside-the-tech-stack-digg-used-to-replace-google-reader)
+
+* [Writing a simple Twitter clone with PHP and Redis](http://redis.io/topics/twitter-clone) - Design and implementation of a simple Twitter clone using PHP and the Redis key-value store
+* [bloom-redis](https://www.npmjs.com/package/bloom-redis) -  a simple redis-backed bloom-filter
+* [Auto complete with Redis](http://autocomplete.redis.io/) - The full list of commands implemented by Redis, along with thorough documentation for each of them
+* [Using Redis as an LRU cache](http://redis.io/topics/lru-cache) - How to configure and use Redis as a cache with a fixed amount of memory and auto eviction of keys.
+* [reds](https://github.com/tj/reds) - light-weight, insanely simple full text search module for node.js - backed by Redis
+* [URL Shortener Service Using Redis](http://sunilarora.org/url-shortener-service-using-redis/) - simple URL Shortener Service Using Redis
 
 
 
