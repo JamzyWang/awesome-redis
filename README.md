@@ -204,7 +204,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ### C
 * [hiredis](https://github.com/redis/hiredis) - This is the official C client. Support for the whole command set, pipelining, event driven programming.
 
-### C#
+### C sharp
 * [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis) - This is a fork and improvement of the original C# client written by Miguel De Icaza.
 * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) - This .NET client was developed by Stack Exchange for very high performance needs (replacement to the earlier BookSleeve).
 
