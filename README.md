@@ -9,6 +9,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Peroformance Monitoring](#peroformance-monitoring)
 	- [Use Cases](#use-cases)
 	- [Debugging or Profiling](#debugging-or-profiling)
+	- [Logging](#logging)
 	- [Top Questions on Stackoverflow](#top-questions-on-stackoverflow)
 	- [Most Stars Project on Github](#most-stars-project-on-github)
 	- [Redis-based Queues](#redis-based-job-queues)
@@ -63,6 +64,16 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ## Debugging or Profiling
 * [redis-lua-debugger](https://github.com/RedisLabs/redis-lua-debugger) - A Redis Lua script for debugging Redis Lua scripts
 * [Redis debugging guide](http://redis.io/topics/debugging) - official Redis debugging guide
+
+---
+## Logging
+* [SLOWLOG subcommand](http://redis.io/commands/slowlog) - official command
+* [python-redis-log](https://github.com/jedp/python-redis-log) - A Python logging handler that publishes to redis pub/sub channels
+* [Redis Logging](https://www.drupal.org/project/redislog) - Redis logging provides a logging backend for the Redis key-value store, as well as a dblog-like user interface to view watchdog entries.
+* [nginx redislog module](http://www.binpress.com/app/nginx-redislog-module/998) - This is a high-performance nginx module for logging http requests into Redis database.
+* [logstash](http://logstash.net/docs/1.2.2/tutorials/getting-started-centralized)
+
+
 
 ---
 ## Use Cases
