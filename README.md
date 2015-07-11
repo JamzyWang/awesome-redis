@@ -240,6 +240,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis News Feed](https://twitter.com/redisfeed)
 * [Redis Cheat Sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
 * [Redis(Chinese)](https://github.com/springside/springside4/wiki/redis)
+* [redis-3.0-annotation(Chinese)](https://github.com/huangz1990/redis-3.0-annotated)
 
 ---
 ## Presentations
