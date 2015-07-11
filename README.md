@@ -50,7 +50,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [How to Use Azure Redis Cache](http://azure.microsoft.com/en-in/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/?rnd=1) 
 * [Redis, from the Ground Up](http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html) 
 * [Redis: under the hood](https://pauladamsmith.com/articles/redis-under-the-hood.html) -  How does the Redis server work?
-
+* [Top 10 Redis Interview Questions](http://career.guru99.com/top-10-redis-interview-questions/)
 
 ---
 ## Peroformance Monitoring
@@ -278,11 +278,14 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 # Resources 
 ---
 ## Useful websites and articles
- * [Redis weekly](http://redisweekly.com/)
- * [Redis News Feed](https://twitter.com/redisfeed)
- * [Redis Package](https://www.npmjs.com/search?q=redis)
- * [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis) 
- * [Redis网络资料汇总(Chinese)](http://www.redis.cn/article.html)
+* [Redis weekly](http://redisweekly.com/)
+* [Redis News Feed](https://twitter.com/redisfeed)
+* [Redis Package](https://www.npmjs.com/search?q=redis)
+* [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis) 
+* [Redis网络资料汇总(Chinese)](http://www.redis.cn/article.html)
+* [Redis Cheat Sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
+* [Redis(Chinese)](https://github.com/springside/springside4/wiki/redis)
+* [redis-3.0-annotation(Chinese)](https://github.com/huangz1990/redis-3.0-annotated)
 
 ---
 ## Presentations
