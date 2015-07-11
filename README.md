@@ -47,6 +47,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis Cluster](http://redis.io/topics/lru-cache) - a gentle introduction and setup guide to Redis Cluster
 * [How to Use Azure Redis Cache](http://azure.microsoft.com/en-in/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/?rnd=1) 
 * [Redis, from the Ground Up](http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html) 
+* [Top 10 Redis Interview Questions](http://career.guru99.com/top-10-redis-interview-questions/)
 
 ---
 ## Peroformance Monitoring
