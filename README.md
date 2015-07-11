@@ -282,7 +282,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis News Feed](https://twitter.com/redisfeed)
 * [Redis Package](https://www.npmjs.com/search?q=redis)
 * [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis) 
-* [redis resource(Chinese)](http://www.redis.cn/article.html)
+* [redis网络资料汇总(Chinese)](http://www.redis.cn/article.html)
 ---
 ## Presentations
 * [Real World Redis](http://www.infoq.com/presentations/Redis-Data-Structure-Library)
