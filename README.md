@@ -176,6 +176,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [HighcoTimelineBundle](https://github.com/stephpy/TimelineBundle) - TimelineBundle is a Bundle which works with Symfony 2.* which provides a timeline for a subject as Facebook can do. (PHP)
 * [Stdnet](https://github.com/lsbardel/python-stdnet) - Redis data manager with advanced query and search API. (Python)
 * [Retools](https://github.com/bbangert/retools) - Caching and locking helper library. (Python)
+* [Distributed locks with Redis](http://redis.io/topics/distlock) - Distributed locks are a very useful primitive in many environments where different processes require to operate with shared resources in a mutually exclusive way.
 
 
 
