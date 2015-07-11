@@ -41,6 +41,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 ---
 ## Tutorial
+* [10-quick-tips-about-redis](http://objectrocket.com/blog/how-to/10-quick-tips-about-redis/)
 * [Redis: Zero to Master in 30 minutes](http://openmymind.net/2011/11/8/Redis-Zero-To-Master-In-30-Minutes-Part-1/)
 * [Lua: A Guide for Redis Users](https://www.redisgreen.net/blog/intro-to-lua-for-redis-programmers/)
 * [Redis - Quick Guide](http://www.tutorialspoint.com/redis/redis_quick_guide.htm)
