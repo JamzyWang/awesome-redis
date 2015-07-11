@@ -47,11 +47,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis - Quick Guide](http://www.tutorialspoint.com/redis/redis_quick_guide.htm)
 * [Introduction to Redis data types](http://redis.io/topics/data-types-intro) - This is a good starting point to learn the Redis API and data model.
 * [Redis Cluster](http://redis.io/topics/lru-cache) - a gentle introduction and setup guide to Redis Cluster
-* [How to Use Azure Redis Cache](http://azure.microsoft.com/en-in/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/?rnd=1) 
-* [Redis, from the Ground Up](http://blog.mjrusso.com/2010/10/17/redis-from-the-ground-up.html) 
-* [Redis: under the hood](https://pauladamsmith.com/articles/redis-under-the-hood.html) -  How does the Redis server work?
 * [Top 10 Redis Interview Questions](http://career.guru99.com/top-10-redis-interview-questions/)
-
+* [Using Redis as a temporary cache for data shared by multiple independent processes](http://dev.mensfeld.pl/2011/11/using-redis-as-a-temporary-cache-for-data-shared-by-multiple-independent-processes/)
 ---
 ## Peroformance Monitoring
 * [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes.
@@ -65,6 +62,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ## Debugging or Profiling
 * [redis-lua-debugger](https://github.com/RedisLabs/redis-lua-debugger) - A Redis Lua script for debugging Redis Lua scripts
 * [Redis debugging guide](http://redis.io/topics/debugging) - official Redis debugging guide
+
 
 ---
 ## Logging
@@ -286,8 +284,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis Cheat Sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
 * [Redis(Chinese)](https://github.com/springside/springside4/wiki/redis)
 * [redis-3.0-annotation(Chinese)](https://github.com/huangz1990/redis-3.0-annotated)
+* [A Collection Of Redis Use Cases](http://www.paperplanes.de/2010/2/16/a_collection_of_redis_use_cases.html)
 
----
 ## Presentations
 * [Real World Redis](http://www.infoq.com/presentations/Redis-Data-Structure-Library)
 * [wooga’s architecture: Facebook Games on MySQL and Redis](http://nosql.mypopescu.com/post/4788119911/woogas-architecture-facebook-games-on-mysql-and)
