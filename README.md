@@ -278,11 +278,12 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 # Resources 
 ---
 ## Useful websites and articles
-* [Redis weekly](http://redisweekly.com/)
-* [Redis News Feed](https://twitter.com/redisfeed)
-* [Redis Package](https://www.npmjs.com/search?q=redis)
-* [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis) 
-* [redis网络资料汇总(Chinese)](http://www.redis.cn/article.html)
+ * [Redis weekly](http://redisweekly.com/)
+ * [Redis News Feed](https://twitter.com/redisfeed)
+ * [Redis Package](https://www.npmjs.com/search?q=redis)
+ * [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis) 
+ * [Redis网络资料汇总(Chinese)](http://www.redis.cn/article.html)
+
 ---
 ## Presentations
 * [Real World Redis](http://www.infoq.com/presentations/Redis-Data-Structure-Library)
