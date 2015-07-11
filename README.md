@@ -246,7 +246,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis weekly](http://redisweekly.com/)
 * [Redis News Feed](https://twitter.com/redisfeed)
 * [Redis Cheat Sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
-
+* [A Collection Of Redis Use Cases](http://www.paperplanes.de/2010/2/16/a_collection_of_redis_use_cases.html)
 
 ## Presentations
 
