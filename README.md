@@ -50,7 +50,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Auto complete with Redis](http://autocomplete.redis.io/) - The full list of commands implemented by Redis, along with thorough documentation for each of them
 * [Using Redis as an LRU cache](http://redis.io/topics/lru-cache) - How to configure and use Redis as a cache with a fixed amount of memory and auto eviction of keys.
 * [Redis Cluster](http://redis.io/topics/lru-cache) - a gentle introduction and setup guide to Redis Cluster
-
+* [Using Redis as a temporary cache for data shared by multiple independent processes](http://dev.mensfeld.pl/2011/11/using-redis-as-a-temporary-cache-for-data-shared-by-multiple-independent-processes/)
 
 
 
