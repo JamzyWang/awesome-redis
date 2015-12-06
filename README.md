@@ -177,6 +177,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Stdnet](https://github.com/lsbardel/python-stdnet) - Redis data manager with advanced query and search API. (Python)
 * [Retools](https://github.com/bbangert/retools) - Caching and locking helper library. (Python)
 * [Distributed locks with Redis](http://redis.io/topics/distlock) - Distributed locks are a very useful primitive in many environments where different processes require to operate with shared resources in a mutually exclusive way.
+* [Redis-tools](https://github.com/salimane/redis-tools) - Generate the Redis protocol, in raw format, in order to use 'redis-cli --pipe' command to massively and quickly insert/delete.... keys in a redis server. (Python)
 
 
 
