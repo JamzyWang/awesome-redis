@@ -150,7 +150,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Kombu](https://github.com/celery/kombu) -Python AMQP Framework with redis support (Python)
 * [Sider](https://github.com/dahlia/sider) - Python persistent object library based on Redis. (Python)
 * [Redis-objects](https://github.com/nateware/redis-objects) - Map Redis types directly to Ruby objects. (Ruby)
-* [Redis-rdb-tools](Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON. (Python)) - Python task queue. Supports multiple backends. (Python)
+* [Redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) - Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON (Python)
 * [Rdb-parser](https://github.com/pconstr/rdb-parser) - node.js asynchronous streaming parser for redis RDB database dumps. (Javascript)
 * [Redis-sync](https://github.com/pconstr/redis-sync) - A node.js redis replication slave toolkit (Javascript) (Javascript)
 * [Meerkat](http://carlhoerberg.github.com/meerkat/) - Rack middleware for Server Sent Events with multiple backends. (Ruby) (Javascript)
