@@ -89,7 +89,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Line](http://developers.linecorp.com/blog/?p=1420) 
 * [stackoverflow](http://highscalability.com/blog/2011/3/3/stack-overflow-architecture-update-now-at-95-million-page-vi.html) 
 * [Github](https://github.com/blog/530-how-we-made-github-fast)
-* [Discourge](https://github.com/discourse/discourse)
+* [Discourse](https://github.com/discourse/discourse)
 * [Digg](http://www.fastcolabs.com/3014663/open-company/inside-the-tech-stack-digg-used-to-replace-google-reader)
 * [Writing a simple Twitter clone with PHP and Redis](http://redis.io/topics/twitter-clone) - Design and implementation of a simple Twitter clone using PHP and the Redis key-value store
 * [bloom-redis](https://www.npmjs.com/package/bloom-redis) -  a simple redis-backed bloom-filter
