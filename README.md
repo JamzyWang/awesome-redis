@@ -38,7 +38,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [London Redis Meetup Group](http://www.meetup.com/Redis-London)
 * [San Francisco Meetup Group](http://sfmeetup.redis.io/)
 
-
 ---
 ## Tutorial
 * [10-quick-tips-about-redis](http://objectrocket.com/blog/how-to/10-quick-tips-about-redis/)
@@ -158,7 +157,10 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Recommendify](https://github.com/paulasmuth/recommendify) - Ruby/Redis based recommendation engine (collaborative filtering). (Ruby)
 * [Redis-store](https://github.com/jodosha/redis-store) - Namespaced Rack::Session, Rack::Cache, I18n and cache Redis stores for Ruby web frameworks. (Ruby)
 
+* [Redsmin](https://www.redsmin.com) - a developer oriented online administration and monitoring service for Redis and Redis cluster. Redsmin is trusted by more than 10K developers world-wide and manage thousands of Redis servers in real-time.
+* [RedisManager](https://github.com/giuseppesalvo/RedisManager) - Simple Mac Application to manage Redis Server
 * [Redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. (Ruby)
+
 * [Rollout](https://github.com/jamesgolick/rollout) - Conditionally roll out features with redis. (Ruby)
 * [Webdis](https://github.com/nicolasff/webdis) - 	A Redis HTTP interface with JSON output. (C)
 * [Soulmate](https://github.com/seatgeek/soulmate) - Redis-backed service for fast autocompleting. (Ruby)
