@@ -149,7 +149,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Kombu](https://github.com/celery/kombu) -Python AMQP Framework with redis support (Python)
 * [Sider](https://github.com/dahlia/sider) - Python persistent object library based on Redis. (Python)
 * [Redis-objects](https://github.com/nateware/redis-objects) - Map Redis types directly to Ruby objects. (Ruby)
-* [Redis-rdb-tools](Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON. (Python)) - Python task queue. Supports multiple backends. (Python)
+* [Redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) - Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON (Python)
 * [Rdb-parser](https://github.com/pconstr/rdb-parser) - node.js asynchronous streaming parser for redis RDB database dumps. (Javascript)
 * [Redis-sync](https://github.com/pconstr/redis-sync) - A node.js redis replication slave toolkit (Javascript) (Javascript)
 * [Meerkat](http://carlhoerberg.github.com/meerkat/) - Rack middleware for Server Sent Events with multiple backends. (Ruby) (Javascript)
@@ -179,6 +179,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Stdnet](https://github.com/lsbardel/python-stdnet) - Redis data manager with advanced query and search API. (Python)
 * [Retools](https://github.com/bbangert/retools) - Caching and locking helper library. (Python)
 * [Distributed locks with Redis](http://redis.io/topics/distlock) - Distributed locks are a very useful primitive in many environments where different processes require to operate with shared resources in a mutually exclusive way.
+* [Redis-tools](https://github.com/salimane/redis-tools) - Generate the Redis protocol, in raw format, in order to use 'redis-cli --pipe' command to massively and quickly insert/delete.... keys in a redis server. (Python)
+* [Redis-cluster-tool](https://github.com/deep011/redis-cluster-tool) - redis-cluster-tool is a convenient and useful tool for redis cluster. It was primarily built to manage the redis cluster. (C)
 
 
 
