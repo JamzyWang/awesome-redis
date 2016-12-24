@@ -181,6 +181,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Distributed locks with Redis](http://redis.io/topics/distlock) - Distributed locks are a very useful primitive in many environments where different processes require to operate with shared resources in a mutually exclusive way.
 * [Redis-tools](https://github.com/salimane/redis-tools) - Generate the Redis protocol, in raw format, in order to use 'redis-cli --pipe' command to massively and quickly insert/delete.... keys in a redis server. (Python)
 * [Redis-cluster-tool](https://github.com/deep011/redis-cluster-tool) - redis-cluster-tool is a convenient and useful tool for redis cluster. It was primarily built to manage the redis cluster. (C)
+* [Rump](https://github.com/stickermule/rump) - Hot-sync two Redis servers using dumps
 
 
 
