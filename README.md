@@ -133,7 +133,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [rq](https://github.com/nvie/rq) - Minimalistic Python task queue. Supports only Redis. (Python)
 * [restmq](https://github.com/gleicon/restmq) - REST/JSON/HTTP based message queue
 * [resque](https://github.com/resque/resque) - Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later. (Ruby)
-* [rq-scheduler](https://github.com/zhemingwang/rq-scheduler) - A light library that adds job scheduling capabilities to [rq](https://github.com/nvie/rq)
+* [rq-scheduler](https://github.com/ui/rq-scheduler) - A light library that adds job scheduling capabilities to [rq](https://github.com/nvie/rq)
 * [Ost](https://github.com/soveran/ost) - Redis based queues and workers. (Ruby)
 * [HotQueue](https://github.com/richardhenry/hotqueue) - a Python library that allows you to use Redis as a message queue within your Python programs.
 * [kue](https://github.com/Automattic/kue) - Kue is a priority job queue backed by redis, built for node.js
