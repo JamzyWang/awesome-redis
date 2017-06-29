@@ -6,7 +6,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Redis](#redis)
 	- [Community](#community)
 	- [Tutorial](#tutorial)
-	- [Peroformance Monitoring](#peroformance-monitoring)
+	- [Performance Monitoring](#performance-monitoring)
 	- [Use Cases](#use-cases)
 	- [Debugging or Profiling](#debugging-or-profiling)
 	- [Logging](#logging)
@@ -50,7 +50,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Using Redis as a temporary cache for data shared by multiple independent processes](http://dev.mensfeld.pl/2011/11/using-redis-as-a-temporary-cache-for-data-shared-by-multiple-independent-processes/)
 
 ---
-## Peroformance Monitoring
+## Performance Monitoring
 * [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes.
 * [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring
 * [redis-stat](https://github.com/junegunn/redis-stat) -  A real-time Redis monitoring tool
