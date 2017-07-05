@@ -141,6 +141,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [bull](https://github.com/OptimalBits/bull) - A NodeJS persistent job and message queue based on Redis
 * [flask-rq](https://github.com/mattupstate/flask-rq) - [rq](https://github.com/nvie/rq) integration for Flask applications
 * [Celery](https://github.com/ask/celery) - Python task queue. Supports multiple backends. (Python)
+* [redis-smq](https://github.com/weyoss/redis-smq) - A simple high-performance Redis message queue for Node.js.
 
 ---
 ## Higher level libraries and tools
