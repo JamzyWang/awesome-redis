@@ -7,16 +7,33 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Community](#community)
 	- [Tutorial](#tutorial)
 	- [Performance Monitoring](#performance-monitoring)
-	- [Use Cases](#use-cases)
 	- [Debugging or Profiling](#debugging-or-profiling)
 	- [Logging](#logging)
+	- [Use Cases](#use-cases)
 	- [Top Questions on Stackoverflow](#top-questions-on-stackoverflow)
 	- [Most Stars Project on Github](#most-stars-project-on-github)
-	- [Redis-based Queues](#redis-based-job-queues)
+	- [Redis based Job Queues](#redis-based-job-queues)
 	- [Higher level libraries and tools](#higher-level-libraries-and-tools)
 	- [Redis Cheat Sheet](#redis-cheat-sheet)
 	- [Redis Hosting](#redis-hosting)
 	- [Redis Client](#redis-client)
+		- [C](#c)
+		- [C sharp](#c-sharp)
+		- [C++](#c)
+	- [Erlang](#erlang)
+	- [Go](#go)
+	- [Haskell](#haskell)
+		- [Java](#java)
+		- [Lua](#lua)
+		- [Matlab](#matlab)
+		- [Node.js](#nodejs)
+		- [Objective-C](#objective-c)
+		- [Perl](#perl)
+		- [PHP](#php)
+		- [Python](#python)
+		- [Ruby](#ruby)
+		- [Rust](#rust)
+		- [Scala](#scala)
 - [Resources](#resources)
 	- [Useful websites and articles](#useful-websites-and-articles)
 	- [Presentations](#presentations)
@@ -230,7 +247,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 ## Go
 * [Radix](https://github.com/fzzy/radix) - MIT licensed Redis client
-* [Redigo](https://github.com/jeremyong/sharded_eredis) - Redigo is a Go client for the Redis database with support for Print-alike API, Pipelining (including transactions), Pub/Sub, Connection pooling, scripting
+* [Redigo](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database with support for Print-alike API, Pipelining (including transactions), Pub/Sub, Connection pooling, scripting
 
 ## Haskell
 * [hedis](https://github.com/informatikr/hedis) - Supports the complete command set. Commands are automatically pipelined for high performance
