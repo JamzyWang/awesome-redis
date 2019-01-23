@@ -74,6 +74,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [redispapa](https://github.com/no13bus/redispapa) - another redis monitor by using flask, angular, socket.io
 * [django-redisboard](https://github.com/ionelmc/django-redisboard) - Redis monitoring and inspection tool in django admin
 * [redis-faina](https://github.com/facebookarchive/redis-faina) - A query analyzer that parses Redis' MONITOR command for counter/timing stats about query patterns
+* [Migrator](https://github.com/microredis/migrator) - A golang script which can be distributed as a binary to migrate data from one redis service to another on the fly
 
 ---
 ## Debugging or Profiling
