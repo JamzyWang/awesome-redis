@@ -179,6 +179,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redsmin](https://www.redsmin.com) - a developer oriented online administration and monitoring service for Redis and Redis cluster. Redsmin is trusted by more than 10K developers world-wide and manage thousands of Redis servers in real-time.
 * [RedisManager](https://github.com/giuseppesalvo/RedisManager) - Simple Mac Application to manage Redis Server
 * [Redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. (Ruby)
+* [RedisWebManager](https://github.com/OpenGems/redis_web_manager) - Web interface that allows you to manage easily your Redis instance (Ruby)
 
 * [Rollout](https://github.com/jamesgolick/rollout) - Conditionally roll out features with redis. (Ruby)
 * [Webdis](https://github.com/nicolasff/webdis) - 	A Redis HTTP interface with JSON output. (C)
