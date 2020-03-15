@@ -16,6 +16,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Higher level libraries and tools](#higher-level-libraries-and-tools)
 	- [Redis Cheat Sheet](#redis-cheat-sheet)
 	- [Redis Hosting](#redis-hosting)
+    - [Commandline Tool](#commandline-tool)
 	- [Redis Client](#redis-client)
 		- [C](#c)
 		- [C sharp](#c-sharp)
@@ -223,10 +224,16 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [rackspace](http://www.rackspace.co.uk/objectrocket/redis) - safe, scalable and supported
 
 
+---
+## Commandline Tool
+
+* [iredis](https://github.com/laixintao/iredis) - Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting.
+
 
 ---
 
 ## Redis Client
+
 ### C
 * [hiredis](https://github.com/redis/hiredis) - This is the official C client. Support for the whole command set, pipelining, event driven programming.
 
