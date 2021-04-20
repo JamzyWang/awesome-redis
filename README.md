@@ -258,6 +258,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ## Go
 * [Radix](https://github.com/fzzy/radix) - MIT licensed Redis client
 * [Redigo](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database with support for Print-alike API, Pipelining (including transactions), Pub/Sub, Connection pooling, scripting
+* [go-redis](https://github.com/go-redis/redis) - Type-safe Redis client for Golang
 
 ## Haskell
 * [hedis](https://github.com/informatikr/hedis) - Supports the complete command set. Commands are automatically pipelined for high performance
