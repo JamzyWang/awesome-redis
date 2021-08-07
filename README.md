@@ -40,7 +40,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Presentations](#presentations)
 	- [Books](#books)
 	- [Courses](#courses)
-- [Certification](#certification)
+- [Certifications](#certifications)
 - [Other Awesome Lists](#other-awesome-lists)
 
 ---
@@ -346,7 +346,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis University](https://university.redislabs.com/)
 
 ---
-## Certification
+## Certifications
 * [Redis Certified Developer](https://university.redislabs.com/certification/)
 
 ---
