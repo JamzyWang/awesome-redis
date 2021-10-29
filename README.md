@@ -65,7 +65,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Lua: A Guide for Redis Users](https://www.redisgreen.net/blog/intro-to-lua-for-redis-programmers/)
 * [Redis - Quick Guide](http://www.tutorialspoint.com/redis/redis_quick_guide.htm)
 * [Introduction to Redis data types](http://redis.io/topics/data-types-intro) - This is a good starting point to learn the Redis API and data model.
-* [Redis Cluster](http://redis.io/topics/lru-cache) - a gentle introduction and setup guide to Redis Cluster
+* [Redis Cluster](https://redis.io/topics/cluster-tutorial) - a gentle introduction and setup guide to Redis Cluster
 * [Top 10 Redis Interview Questions](http://career.guru99.com/top-10-redis-interview-questions/)
 * [Using Redis as a temporary cache for data shared by multiple independent processes](http://dev.mensfeld.pl/2011/11/using-redis-as-a-temporary-cache-for-data-shared-by-multiple-independent-processes/)
 
