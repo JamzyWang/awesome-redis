@@ -39,6 +39,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Useful websites and articles](#useful-websites-and-articles)
 	- [Presentations](#presentations)
 	- [Books](#books)
+	- [Courses](#courses)
+- [Certifications](#certifications)
 - [Other Awesome Lists](#other-awesome-lists)
 
 ---
@@ -338,6 +340,14 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Instant Redis Persistence ](http://www.packtpub.com/redis-persistence/book)
 * [Seven Databases in Seven Weeks](https://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
 * [Mining the Social Web](http://shop.oreilly.com/product/0636920010203.do)
+
+---
+## Courses
+* [Redis University](https://university.redislabs.com/)
+
+---
+## Certifications
+* [Redis Certified Developer](https://university.redislabs.com/certification/)
 
 ---
 # Other Awesome Lists
