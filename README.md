@@ -44,8 +44,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ---
 ## Redis
 * [Redis](http://redis.io/) - redis official website
-* [Antirez](http://antirez.com/latest/0) - blog of the redis author 
-* [Documentation](http://redis.io/documentation) 
+* [Antirez](http://antirez.com/latest/0) - blog of the redis author
+* [Documentation](http://redis.io/documentation)
 * [Redis Comands](http://redis.io/commands) - The full list of commands implemented by Redis, along with thorough documentation for each of them
 * [FAQ](http://redis.io/topics/faq) - Some common questions about Redis.
 
@@ -98,14 +98,14 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 * [Twitter](http://www.infoq.com/presentations/Real-Time-Delivery-Twitter) - Real-Time Delivery Architecture at Twitter
 * [Twitter](http://highscalability.com/blog/2014/9/8/how-twitter-uses-redis-to-scale-105tb-ram-39mm-qps-10000-ins.html) - How Twitter Uses Redis To Scale
-* [Weibo](http://www.infoq.com/cn/presentations/tfl-sina-weibo-platform-redis-practice) 
-* [Tumblr](http://highscalability.com/blog/2013/5/20/the-tumblr-architecture-yahoo-bought-for-a-cool-billion-doll.html) 
-* [Flickr](http://www.infoq.com/news/2014/08/flickr-sentinel-redis) 
-* [Instagram](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html) 
-* [Pinterest](http://nosql.mypopescu.com/post/17658415847/polyglot-persistence-at-pinterest-redis-membase) 
-* [Youporn.com](http://highscalability.com/blog/2012/4/2/youporn-targeting-200-million-views-a-day-and-beyond.html) 
-* [Line](http://developers.linecorp.com/blog/?p=1420) 
-* [stackoverflow](http://highscalability.com/blog/2011/3/3/stack-overflow-architecture-update-now-at-95-million-page-vi.html) 
+* [Weibo](http://www.infoq.com/cn/presentations/tfl-sina-weibo-platform-redis-practice)
+* [Tumblr](http://highscalability.com/blog/2013/5/20/the-tumblr-architecture-yahoo-bought-for-a-cool-billion-doll.html)
+* [Flickr](http://www.infoq.com/news/2014/08/flickr-sentinel-redis)
+* [Instagram](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
+* [Pinterest](http://nosql.mypopescu.com/post/17658415847/polyglot-persistence-at-pinterest-redis-membase)
+* [Youporn.com](http://highscalability.com/blog/2012/4/2/youporn-targeting-200-million-views-a-day-and-beyond.html)
+* [Line](http://developers.linecorp.com/blog/?p=1420)
+* [stackoverflow](http://highscalability.com/blog/2011/3/3/stack-overflow-architecture-update-now-at-95-million-page-vi.html)
 * [Github](https://github.com/blog/530-how-we-made-github-fast)
 * [Discourse](https://github.com/discourse/discourse)
 * [Digg](http://www.fastcolabs.com/3014663/open-company/inside-the-tech-stack-digg-used-to-replace-google-reader)
@@ -123,11 +123,11 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Memcached vs. Redis?](http://stackoverflow.com/questions/10558465/memcached-vs-redis)
 * [What is Redis and what do I use it for?](http://stackoverflow.com/questions/7888880/what-is-redis-and-what-do-i-use-it-for)
 * [How do I delete everything in redis?](http://stackoverflow.com/questions/6851909/how-do-i-delete-everything-in-redis)
-* [What are the underlying data structures used for Redis?](http://stackoverflow.com/questions/9625246/what-are-the-underlying-data-structures-used-for-redis) 
+* [What are the underlying data structures used for Redis?](http://stackoverflow.com/questions/9625246/what-are-the-underlying-data-structures-used-for-redis)
 * [When to Redis? When to MongoDB?](http://stackoverflow.com/questions/5400163/when-to-redis-when-to-mongodb)
 * [How to atomically delete keys matching a pattern using Redis](http://stackoverflow.com/questions/4006324/how-to-atomically-delete-keys-matching-a-pattern-using-redis)
 * [Redis command to get all available keys?](http://stackoverflow.com/questions/5252099/redis-command-to-get-all-available-keys)
-* [How much faster is Redis than mongoDB?](http://stackoverflow.com/questions/5252577/how-much-faster-is-redis-than-mongodb) 
+* [How much faster is Redis than mongoDB?](http://stackoverflow.com/questions/5252577/how-much-faster-is-redis-than-mongodb)
 * [Is memcached a dinosaur in comparison to Redis?](http://stackoverflow.com/questions/2873249/is-memcached-a-dinosaur-in-comparison-to-redis)
 
 
@@ -173,7 +173,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Rdb-parser](https://github.com/pconstr/rdb-parser) - node.js asynchronous streaming parser for redis RDB database dumps. (Javascript)
 * [Redis-sync](https://github.com/pconstr/redis-sync) - A node.js redis replication slave toolkit (Javascript) (Javascript)
 * [Meerkat](http://carlhoerberg.github.com/meerkat/) - Rack middleware for Server Sent Events with multiple backends. (Ruby) (Javascript)
-* [Redis-sampler](https://github.com/antirez/redis-sampler) - Sample a Redis DB to understand dataset composition. (Ruby) 
+* [Redis-sampler](https://github.com/antirez/redis-sampler) - Sample a Redis DB to understand dataset composition. (Ruby)
 * [Recommendify](https://github.com/paulasmuth/recommendify) - Ruby/Redis based recommendation engine (collaborative filtering). (Ruby)
 * [Redis-store](https://github.com/jodosha/redis-store) - Namespaced Rack::Session, Rack::Cache, I18n and cache Redis stores for Ruby web frameworks. (Ruby)
 
@@ -207,14 +207,14 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 
 ---
-## Redis Cheat Sheet 
+## Redis Cheat Sheet
 * [cheat sheet](https://masonoise.files.wordpress.com/2010/03/redis-cheatsheet-v1.pdf) -pdf reference with fine layout
 * [cheat sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
 
 
 ---
 ## Redis Hosting
-* [linode](https://www.linode.com/docs/databases/redis/) 
+* [linode](https://www.linode.com/docs/databases/redis/)
 * [redisgreen](http://www.redisgreen.net/) - With 24/7 Monitoring and Professional Support.
 * [redislabs](https://redislabs.com/) -Great apps. Big performance. Little effort
 * [openredis](https://openredis.com/) - offer dependable Redis™ hosting
@@ -307,13 +307,12 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 
 ---
-# Resources 
+# Resources
 ---
 ## Useful websites and articles
-* [Redis weekly](http://redisweekly.com/)
 * [Redis News Feed](https://twitter.com/redisfeed)
 * [Redis Package](https://www.npmjs.com/search?q=redis)
-* [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis) 
+* [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis)
 * [Redis网络资料汇总(Chinese)](http://www.redis.cn/article.html)
 * [Redis Cheat Sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
 * [Redis(Chinese)](https://github.com/springside/springside4/wiki/redis)
