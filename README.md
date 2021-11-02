@@ -117,7 +117,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Using Redis as an LRU cache](http://redis.io/topics/lru-cache) - How to configure and use Redis as a cache with a fixed amount of memory and auto eviction of keys.
 * [reds](https://github.com/tj/reds) - light-weight, insanely simple full text search module for node.js - backed by Redis
 * [URL Shortener Service Using Redis](http://sunilarora.org/url-shortener-service-using-redis/) - simple URL Shortener Service Using Redis
-
+* [MicroFrontier](https://github.com/adileo/MicroFrontier) - A lightweight crawler URL frontier implementation backed by Redis
 
 
 ---
