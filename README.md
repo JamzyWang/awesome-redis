@@ -56,7 +56,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [mailing list](http://groups.google.com/group/redis-db)
 * [Freenode webchat](http://webchat.freenode.net/?channels=redis)
 * [London Redis Meetup Group](http://www.meetup.com/Redis-London)
-* [San Francisco Meetup Group](http://sfmeetup.redis.io/)
 
 ---
 ## Tutorial
@@ -90,8 +89,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [SLOWLOG subcommand](http://redis.io/commands/slowlog) - official command
 * [python-redis-log](https://github.com/jedp/python-redis-log) - A Python logging handler that publishes to redis pub/sub channels
 * [Redis Logging](https://www.drupal.org/project/redislog) - Redis logging provides a logging backend for the Redis key-value store, as well as a dblog-like user interface to view watchdog entries.
-* [nginx redislog module](http://www.binpress.com/app/nginx-redislog-module/998) - This is a high-performance nginx module for logging http requests into Redis database.
-* [logstash](http://logstash.net/docs/1.2.2/tutorials/getting-started-centralized)
+* [logstash](http://logstash.net/docs/1.2.2/tutorials/getting-started-centralized) - [Alternative installation guide](https://logit.io/sources/configure/logstash)
 
 
 
@@ -123,7 +121,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ---
 ## Top Questions on Stackoverflow
 * [Memcached vs. Redis?](http://stackoverflow.com/questions/10558465/memcached-vs-redis)
-* [What is Redis and what do I use it for?](http://stackoverflow.com/questions/7888880/what-is-redis-and-what-do-i-use-it-for)
 * [How do I delete everything in redis?](http://stackoverflow.com/questions/6851909/how-do-i-delete-everything-in-redis)
 * [What are the underlying data structures used for Redis?](http://stackoverflow.com/questions/9625246/what-are-the-underlying-data-structures-used-for-redis)
 * [When to Redis? When to MongoDB?](http://stackoverflow.com/questions/5400163/when-to-redis-when-to-mongodb)
@@ -174,7 +171,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) - Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON (Python)
 * [Rdb-parser](https://github.com/pconstr/rdb-parser) - node.js asynchronous streaming parser for redis RDB database dumps. (Javascript)
 * [Redis-sync](https://github.com/pconstr/redis-sync) - A node.js redis replication slave toolkit (Javascript) (Javascript)
-* [Meerkat](http://carlhoerberg.github.com/meerkat/) - Rack middleware for Server Sent Events with multiple backends. (Ruby) (Javascript)
 * [Redis-sampler](https://github.com/antirez/redis-sampler) - Sample a Redis DB to understand dataset composition. (Ruby)
 * [Recommendify](https://github.com/paulasmuth/recommendify) - Ruby/Redis based recommendation engine (collaborative filtering). (Ruby)
 * [Redis-store](https://github.com/jodosha/redis-store) - Namespaced Rack::Session, Rack::Cache, I18n and cache Redis stores for Ruby web frameworks. (Ruby)
@@ -189,7 +185,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Soulmate](https://github.com/seatgeek/soulmate) - Redis-backed service for fast autocompleting. (Ruby)
 * [Redis_failover](https://github.com/ryanlecompte/redis_failover) - Redis Failover is a ZooKeeper-based automatic master/slave failover solution for Ruby. (Ruby)
 * [Redis-dump](https://github.com/delano/redis-dump) - Backup and restore your Redis data to and from JSON. Warning: alpha code. (Ruby)
-* [Sidekiq](http://mperham.github.com/sidekiq/) - Simple, efficient message processing for your Rails 3 application. (Ruby)
 * [Soulmate](https://github.com/seatgeek/soulmate) - Redis-backed service for fast autocompleting. (Ruby)
 * [Omhiredis](http://www.rsyslog.com/doc/build_from_repo.html) - redis output plugin for rsyslog (rsyslog dev, and rsyslog head). (C)
 * [Mod_redis](https://github.com/sneakybeaky/mod_redis) - An Apache HTTPD module for speaking to redis via HTTP (C)
@@ -258,7 +253,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Tideland Erlang/OTP Redis Client](git://git.tideland.biz/errc) - A comfortable Redis client for Erlang/OTP support pooling, pub/sub and transactions.
 
 ## Go
-* [Radix](https://github.com/fzzy/radix) - MIT licensed Redis client
 * [Redigo](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database with support for Print-alike API, Pipelining (including transactions), Pub/Sub, Connection pooling, scripting
 * [go-redis](https://github.com/go-redis/redis) - Type-safe Redis client for Golang
 
@@ -316,7 +310,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis News Feed](https://twitter.com/redisfeed)
 * [Redis Package](https://www.npmjs.com/search?q=redis)
 * [Redis Wikipedia Article](http://en.wikipedia.org/wiki/Redis)
-* [Redis网络资料汇总(Chinese)](http://www.redis.cn/article.html)
 * [Redis Cheat Sheet](http://www.cheatography.com/tasjaevan/cheat-sheets/redis/) - Online or printable function reference for Redis.
 * [Redis(Chinese)](https://github.com/springside/springside4/wiki/redis)
 * [Redis Command Reference(Chinese)](http://redisdoc.com/index.html)
@@ -337,8 +330,6 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [The Little Redis Book](http://openmymind.net/2012/1/23/The-Little-Redis-Book/)
 * [Redis Cookbook](http://shop.oreilly.com/product/0636920020127.do)
 * [Instant Redis Optimization How-to](http://www.wrox.com/WileyCDA/WroxTitle/Professional-NoSQL.productCd-047094224X.html)
-* [Instant Redis Persistence ](http://www.packtpub.com/redis-persistence/book)
-* [Seven Databases in Seven Weeks](https://pragprog.com/book/rwdata/seven-databases-in-seven-weeks)
 * [Mining the Social Web](http://shop.oreilly.com/product/0636920010203.do)
 
 ---
