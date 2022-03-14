@@ -146,6 +146,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [redis-rb](https://github.com/redis/redis-rb) - A Ruby client library for Redis
 * [Balloons.IO](https://github.com/rickyrauch/Balloons.IO) - Balloons.IO is a web multi-room chat server and client ready to use. It’s built with the help of node.JS, Express, Socket.IO and Redis
 * [predis](https://github.com/nrk/predis) - Flexible and feature-complete PHP client library for Redis
+* [kvrocks](https://github.com/KvrocksLabs/kvrocks) - Kvrocks is an open-source distributed key-value database which is based on rocksdb and compatible with Redis protocol.
 
 
 
@@ -163,6 +164,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [flask-rq](https://github.com/mattupstate/flask-rq) - [rq](https://github.com/nvie/rq) integration for Flask applications
 * [Celery](https://github.com/ask/celery) - Python task queue. Supports multiple backends. (Python)
 * [redis-smq](https://github.com/weyoss/redis-smq) - A simple high-performance Redis message queue for Node.js.
+* [lmstfy](https://github.com/bitleak/lmstfy) - LMSTFY is a simple task queue (or job queue) service based on the Redis storage
 
 ---
 ## Higher level libraries and tools
