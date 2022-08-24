@@ -216,6 +216,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 ---
 ## Redis Hosting
+* [upstash](https://upstash.com/) and [upstash for heroku](https://elements.heroku.com/addons/upstash-redis) - Scalable Redis with REST API and professional support.
 * [linode](https://www.linode.com/docs/databases/redis/)
 * [redisgreen](http://www.redisgreen.net/) - With 24/7 Monitoring and Professional Support.
 * [redislabs](https://redislabs.com/) -Great apps. Big performance. Little effort
