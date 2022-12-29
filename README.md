@@ -231,8 +231,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 
 ---
 ## Cloud Native
-* [redis-operator] (https://github.com/spotahome/redis-operator) - Redis Operator creates/configures/manages high availability redis with sentinel automatic failover atop Kubernetes.
-* [td-redis-operator] (https://github.com/tongdun/td-redis-operator) - The powerful cloud-native redis-operator, which has passed the test of large-scale production-level operation, supports distributed clusters and active/standby switching ...
+* [redis-operator](https://github.com/spotahome/redis-operator) - Redis Operator creates/configures/manages high availability redis with sentinel automatic failover atop Kubernetes.
+* [td-redis-operator](https://github.com/tongdun/td-redis-operator) - The powerful cloud-native redis-operator, which has passed the test of large-scale production-level operation, supports distributed clusters and active/standby switching ...
 
 
 ---
