@@ -16,6 +16,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Higher level libraries and tools](#higher-level-libraries-and-tools)
 	- [Redis Cheat Sheet](#redis-cheat-sheet)
 	- [Redis Hosting](#redis-hosting)
+	- [Cloud Native](#cloud-native)
     - [Commandline Tool](#commandline-tool)
 	- [Redis Client](#redis-client)
 		- [C](#c)
@@ -225,6 +226,13 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [openredis](https://addons.heroku.com/openredis) - Dependable Redis Hosting
 * [rackspace](http://www.rackspace.co.uk/objectrocket/redis) - safe, scalable and supported
 * [scalechamp](http://www.scalechamp.com/redis/) - Managed Redis as a Service provided by ScaleChamp on AWS, Hetzner, Azure, Linode, IBM, Scaleway, Alibaba Cloud, DigitalOcean, GCP, UpCloud, Vultr
+
+
+
+---
+## Cloud Native
+* [redis-operator](https://github.com/spotahome/redis-operator) - Redis Operator creates/configures/manages high availability redis with sentinel automatic failover atop Kubernetes.
+* [td-redis-operator](https://github.com/tongdun/td-redis-operator) - The powerful Cloud Native redis-operator, which has passed the test of large-scale production-level operation, supports distributed clusters and active/standby switching ...
 
 
 ---
