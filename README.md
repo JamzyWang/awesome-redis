@@ -16,7 +16,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Higher level libraries and tools](#higher-level-libraries-and-tools)
 	- [Redis Cheat Sheet](#redis-cheat-sheet)
 	- [Redis Hosting](#redis-hosting)
-        - [Cloud Native](#cloud-native)
+	- [Cloud Native](#cloud-native)
     - [Commandline Tool](#commandline-tool)
 	- [Redis Client](#redis-client)
 		- [C](#c)
