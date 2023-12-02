@@ -205,6 +205,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redis-tools](https://github.com/salimane/redis-tools) - Generate the Redis protocol, in raw format, in order to use 'redis-cli --pipe' command to massively and quickly insert/delete.... keys in a redis server. (Python)
 * [Redis-cluster-tool](https://github.com/deep011/redis-cluster-tool) - redis-cluster-tool is a convenient and useful tool for redis cluster. It was primarily built to manage the redis cluster. (C)
 * [Rump](https://github.com/stickermule/rump) - Hot-sync two Redis servers using dumps
+* [FastStream](https://github.com/airtai/faststream) - A powerful and easy-to-use Python framework for building asynchronous services interacting with event streams such as Apache Kafka, RabbitMQ, NATS and Redis.
 
 
 
