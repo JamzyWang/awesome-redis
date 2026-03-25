@@ -231,6 +231,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ## Commandline Tool
 
 * [iredis](https://github.com/laixintao/iredis) - Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting.
+* [Yaw](https://yaw.sh) - A cross-platform terminal with built-in Redis client, SSH client, and connection manager.
 
 
 ---
