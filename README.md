@@ -42,6 +42,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 	- [Courses](#courses)
 - [Certifications](#certifications)
 - [Other Awesome Lists](#other-awesome-lists)
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Redis-powered workflow orchestration, automated caching and data pipeline management, and multi-agent coordination. MIT licensed.
 
 ---
 ## Redis
