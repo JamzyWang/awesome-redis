@@ -184,6 +184,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [Redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. (Ruby)
 * [RedisWebManager](https://github.com/OpenGems/redis_web_manager) - Web interface that allows you to manage easily your Redis instance (Ruby)
 
+* [RemoteOpenClaw](https://remoteopenclaw.com) - Open marketplace for AI skills and personas built on OpenClaw.
 * [Rollout](https://github.com/jamesgolick/rollout) - Conditionally roll out features with redis. (Ruby)
 * [Webdis](https://github.com/nicolasff/webdis) - 	A Redis HTTP interface with JSON output. (C)
 * [Soulmate](https://github.com/seatgeek/soulmate) - Redis-backed service for fast autocompleting. (Ruby)
