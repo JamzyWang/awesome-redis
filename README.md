@@ -303,7 +303,8 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [redis-rb](https://github.com/redis/redis-rb) - Very stable and mature client. Install and require the hiredis gem before redis-rb for maximum performances
 
 ### Rust
-* [redis-rb](https://github.com/mitsuhiko/redis-rs) - A high and low level client library for Redis tracking Rust nightly
+* [redis-rs](https://github.com/redis-rs/redis-rs) - A high and low level client library for Redis
+* [wedb_embed](https://github.com/webc-site/wedb_embed) - Redis-compatible embedded LSM disk database engine in pure Rust
 
 ### Scala
 * [scala-redis](https://github.com/debasishg/scala-redis) - Apparently a fork of the original client from @alejandrocrosa
