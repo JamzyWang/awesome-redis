@@ -243,6 +243,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 ### C sharp
 * [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis) - This is a fork and improvement of the original C# client written by Miguel De Icaza.
 * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) - This .NET client was developed by Stack Exchange for very high performance needs (replacement to the earlier BookSleeve).
+* [RedisNearCache](https://github.com/magna-nz/redis-near-cache) - Client-side caching on top of StackExchange.Redis using `CLIENT TRACKING`: values you read are kept in memory and evicted when Redis reports a change.
 
 
 ### C++
