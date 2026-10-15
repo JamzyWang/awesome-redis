@@ -225,6 +225,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [openredis](https://addons.heroku.com/openredis) - Dependable Redis Hosting
 * [rackspace](http://www.rackspace.co.uk/objectrocket/redis) - safe, scalable and supported
 * [scalechamp](http://www.scalechamp.com/redis/) - Managed Redis as a Service provided by ScaleChamp on AWS, Hetzner, Azure, Linode, IBM, Scaleway, Alibaba Cloud, DigitalOcean, GCP, UpCloud, Vultr
+* [Layerbase](https://layerbase.com/db/redis) - Managed Redis hosting with a free tier
 
 
 ---
