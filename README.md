@@ -163,6 +163,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [flask-rq](https://github.com/mattupstate/flask-rq) - [rq](https://github.com/nvie/rq) integration for Flask applications
 * [Celery](https://github.com/ask/celery) - Python task queue. Supports multiple backends. (Python)
 * [redis-smq](https://github.com/weyoss/redis-smq) - A simple high-performance Redis message queue for Node.js.
+* [OxMQ](https://github.com/gaurav10610/oxmq) - High-throughput distributed message queue and DAG workflow engine for Java 17 & 21 (Project Loom), powered by official Redis Lua scripts with full Bull-Board UI compatibility. (Java)
 
 ---
 ## Higher level libraries and tools
