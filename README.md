@@ -163,6 +163,7 @@ A curated list of amazingly awesome redis and redis ecosystem resources. Inspire
 * [flask-rq](https://github.com/mattupstate/flask-rq) - [rq](https://github.com/nvie/rq) integration for Flask applications
 * [Celery](https://github.com/ask/celery) - Python task queue. Supports multiple backends. (Python)
 * [redis-smq](https://github.com/weyoss/redis-smq) - A simple high-performance Redis message queue for Node.js.
+* [TurboPulse](https://github.com/Saiop68/turbopulse) - High-performance native Rust background queue and rate limiter for Node.js with embedded in-memory and Redis cluster support. (Node.js)
 
 ---
 ## Higher level libraries and tools
